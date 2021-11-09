@@ -1,0 +1,93 @@
+body {
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+}
+h1 {
+  font-weight: 800;
+  line-height: 1;
+  padding-right: 50px;
+  color: hsl(300, 43%, 22%);
+  font-size: 56px;
+}
+
+h6 {
+  font-weight: 600;
+}
+.d-inline-block {
+  display: inline-block;
+}
+
+.height {
+  height: 330px;
+}
+
+.row {
+  padding: 0 !important;
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0;
+}
+
+.cards-section .col-lg-3 {
+  width: 30%;
+  border-radius: 5px;
+  padding: 30px 30px;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+}
+
+.cards-section img {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+/* This is the verified buyer paragraphs under person names in cards */
+.clr-magenta {
+  color: hsl(333, 80%, 67%);
+}
+/* This is the p tag under the one and only h1 */
+.col-lg-6 p {
+  color: hsl(303, 10%, 53%);
+}
+
+/* These are 5 star elements */
+.five-stars h6 {
+  background-color: hsl(300, 24%, 96%);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 32px;
+    margin-left: 2rem;
+  }
+  .row {
+    text-align: center;
+  }
+  .container {
+    text-align: center;
+  }
+  .cards-section {
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  .col-lg-3 {
+    width: 100% !important;
+  }
+  span {
+    display: block;
+  }
+
+  #h6-1 {
+    align-self: stretch !important;
+  }
+
+  #h6-2 {
+    align-self: stretch !important;
+  }
+
+  #h6-3 {
+    align-self: stretch !important;
+  }
+}
