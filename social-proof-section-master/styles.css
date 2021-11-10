@@ -4,32 +4,34 @@ body {
   font-family: "Spartan", sans-serif;
 }
 h1 {
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1;
   padding-right: 50px;
   color: hsl(300, 43%, 22%);
-  font-size: 56px;
+  font-size: 44px;
 }
 
-h6 {
-  font-weight: 600;
-}
 .d-inline-block {
   display: inline-block;
 }
 
 .height {
-  height: 330px;
+  height: 320px;
 }
 
-.row {
+/* .row {
   padding: 0 !important;
   --bs-gutter-x: 0 !important;
   --bs-gutter-y: 0;
+} */
+
+.cards-section {
+  padding-left: 6rem;
+  padding-right: 2rem;
 }
 
 .cards-section .col-lg-3 {
-  width: 30%;
+  width: 32%;
   border-radius: 5px;
   padding: 30px 30px;
   background-color: hsl(300, 43%, 22%);
@@ -50,11 +52,27 @@ h6 {
   color: hsl(303, 10%, 53%);
 }
 
+.five-stars {
+  padding-left: 5.5rem;
+  padding-right: 2.5rem;
+}
+
+.five-stars span {
+  margin-right: 1.5rem;
+}
+
 /* These are 5 star elements */
 .five-stars h6 {
   background-color: hsl(300, 24%, 96%);
-  padding: 20px 30px;
+  padding: 20px 20px;
+  padding-right: 70px;
   border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.heading {
+  padding: 0 6rem;
 }
 
 @media (max-width: 375px) {
